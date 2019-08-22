@@ -70,10 +70,10 @@
   }
 
   .formulario input, textarea{
-    width: 32%;
+    width: 35%;
     margin-top: 5%;
     float: none;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-right: 2%;
   }
 
@@ -86,38 +86,40 @@
     margin-left: 25%;
     margin-right: 25%;
   }
+
 }
 
 /*MEDIUM DEVICES - TABLETS E DESKTOPS*/
 
 @media screen and (min-width: 960px){
+
   .titulo h1{
     font-size: 1.8em;
     text-align: center;
+    margin-left: 40%;
   }
 
   .formulario label{
-    font-size: 1.4em;
-    width: 5%;
+    font-size: 1.6em;
+    width: 3%;
     float: none;
   }
 
   .formulario input, textarea{
-    width: 32%;
+    width: 36%;
     margin-top: 5%;
     float: none;
-    margin-left: 5%;
+    padding: 2%;
+    margin-left: 2%;
     margin-right: 2%;
   }
 
   .formulario textarea{
-    width: 90%;
+    width: 60%;
   }
 
   .formulario button{
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 30%;
   }
 
 }
@@ -126,6 +128,33 @@
 
 @media screen and (min-width: 1280px){
 
+  .formulario{
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+  }
 
+  .titulo h1{
+    font-size: 1.8em;
+    text-align: center;
+    margin-left: 40%;
+  }
+
+  .formulario label{
+    font-size: 1.8em;
+    width: 8%;
+  }
+
+  .formulario input, textarea{
+    width: 80%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .formulario button{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
 
 }
