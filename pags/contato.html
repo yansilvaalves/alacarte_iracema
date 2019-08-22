@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description" content="Alacarte especializado em comidas típicas nordestinas e de alta gastronomia.">
+
+		<meta name="keywords" content="Alacarte, Gastronomia, Prato.">
+
+		<meta name="robots" content="index, follow">
+
+		<meta name="author" content="Yan Alves">
+
+		<title>Alacarte Iracema</title>
+
+		<link rel="stylesheet" type="text/css" href="../estilo/estilo_index.css">
+
+		<link rel="stylesheet" type="text/css" href="../estilo/estilo_contato.css">
+
+		<link rel="stylesheet" type="text/css" href="../estilo/icones.css">
+
+		<link rel="icon" href="../img/logo.png">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<header class="cabecalho">
+
+			<a href="index.html"><h1 class="logo">Alacarte Iracema</h1></a>
+
+			<button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+
+			<nav class="menu">
+
+				<ul>
+
+					<a href="#" class="btn-fechar"><i class="fa fa-times"></i></a>
+
+					<li><a href="#">Quem Somos</a></li>
+					<li><a href="#">Unidades</a></li>
+					<li><a href="#">Cardápio</a></li>
+					<li><a href="#">Eventos</a></li>
+					<li><a href="#">Contato</a></li>
+
+				</ul>
+
+			</nav>
+
+		</header>
+
+		<div class="banner">
+			<div class="titulo">
+				<h1>Contate-nos</h1>
+			</div>
+		</div>
+
+		<main class="formulario">
+
+			<form>
+
+				<label for="nome">Nome</label>
+				<input type="text" name="nome" id="nome" placeholder="Seu Nome">
+
+				<label>Email</label>
+				<input type="email" name="email" id="email" placeholder="Seu Email">
+
+				<label>Mensagem</label>
+				<textarea placeholder="Sua Mensagem"></textarea>
+
+				<button type="submit">Enviar</button>
+
+
+			</form>
+
+		</main>
+
+		<section class="newsletter">
+
+			<h2>Inscreva-se agora!</h2>
+			<h3>Receba novidades, dicas e muito mais.</h3>
+
+			<form>
+
+				<input type="email" name="email" placeholder="Seu email">
+
+				<button>Cadastrar</button>
+
+			</form>
+
+		</section>
+
+		<section class="informacoes-adicionais">
+
+			<div class="mapa">
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3789.1425400967805!2d-45.2257176471113!3d-18.249286117433737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74871627a7757%3A0xd34cc486d4aeba6f!2sAv.+Beira+Mar!5e0!3m2!1spt-BR!2sbr!4v1566329419149!5m2!1spt-BR!2sbr"></iframe>
+
+			</div>
+
+			<div class="contatos">
+
+				<h1>Informações de Contato</h1>
+
+				<p>Telefone: (85) 8824-9381 &nbsp<i class="fa fa-phone"></i></p>
+				<p>Celular: (85) 98796-9242 &nbsp<i class="fa fa-tablet"></i></p>
+				<p>Email: alacarteiracema@gmail.com &nbsp<i class="fa fa-envelope"></i></p>
+
+			</div>
+
+		</section>
+
+		<footer class="rodape">
+
+			<div class="icones-sociais">
+
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-google"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-envelope"></i></a>
+
+				<p class="direitos">
+					Copyright @ AlacarteIracema 2019. Todos os direitos reservados.
+				</p>
+
+			</div>
+
+		</footer>
+
+		<script type="text/javascript" src="../js/icones.js"></script>
+
+		<script type="text/javascript" src="../js/jquery.js"></script>
+
+		<script type="text/javascript">
+			$(".btn-menu").click(function(){
+
+				$(".menu").show();
+
+			});
+
+			$(".btn-fechar").click(function(){
+
+				$(".menu").hide();
+
+			});
+		</script>
+
+	</body>
+
+</html>
